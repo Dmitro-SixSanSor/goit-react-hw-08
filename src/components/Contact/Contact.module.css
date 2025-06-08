@@ -1,0 +1,18 @@
+.contact {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  border-bottom: 1px solid #ccc;
+}
+
+button {
+  background-color: crimson;
+  color: white;
+  border: none;
+  padding: 4px 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darkred;
+}

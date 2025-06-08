@@ -1,0 +1,14 @@
+.wrapper {
+  display: flex;
+  gap: 12px;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+}
+
+.active {
+  text-decoration: underline;
+  font-weight: bold;
+}
