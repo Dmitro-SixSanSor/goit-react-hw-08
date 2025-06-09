@@ -12,7 +12,7 @@ export default function SearchBox() {
       className={css.input}
       type="text"
       value={filter}
-      onChange={e => dispatch(changeFilter(e.target.value))}
+      onChange={e => dispatch(setFilter(e.target.value))}
       placeholder="Search by name or number"
     />
   );
